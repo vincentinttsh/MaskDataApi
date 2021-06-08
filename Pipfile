@@ -8,10 +8,11 @@ pycodestyle = "*"
 autopep8 = "*"
 
 [packages]
+urllib3 = ">=1.26.5"
 flask = "*"
 requests = "*"
 fake-useragent = "*"
 schedule = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.8"
